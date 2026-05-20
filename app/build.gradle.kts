@@ -65,8 +65,8 @@ dependencies {
     implementation(libs.compose.theme.adapter3)
     implementation(libs.datastore.preferences)
 
-    implementation("androidx.compose.material:material-icons-core")
-    implementation("androidx.compose.material:material-icons-extended")
+    implementation(libs.compose.material.icons.core)
+    implementation(libs.compose.material.icons.extended)
 
     implementation(libs.coil)
     implementation(libs.coil.compose)
